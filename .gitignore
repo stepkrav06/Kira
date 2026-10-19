@@ -1,11 +1,11 @@
 /.vs
 /out/build
-*.lt
 *.exe
 CMakeSettings.json
 /libtorch
 /bob_build
 /rlbot/000-runtime
-rlbot/logo.png
 /build
 /.idea
+.DS_Store
+

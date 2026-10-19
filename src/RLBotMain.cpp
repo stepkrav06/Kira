@@ -127,14 +127,14 @@ int main(int argc, char** argv)
 
     // Shared head config
     GGL::InferPartialModelConfig sharedHeadCfg;
-    sharedHeadCfg.layerSizes = { 256, 256 };
+    sharedHeadCfg.layerSizes = { 1024, 1024, 1024 };
     sharedHeadCfg.addLayerNorm = true;
     sharedHeadCfg.activationType = GGL::ModelActivationType::RELU;
     sharedHeadCfg.addOutputLayer = false; // <- leave this false
 
     // Policy config
     GGL::InferPartialModelConfig policyCfg;
-    policyCfg.layerSizes = { 256, 256, 256 };
+    policyCfg.layerSizes = { 1024, 1024, 512, 512 };
     policyCfg.addLayerNorm = true;
     policyCfg.activationType = GGL::ModelActivationType::RELU;
     policyCfg.addOutputLayer = true;

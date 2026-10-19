@@ -2,9 +2,9 @@
 [settings]
 # This must be a unqiue identifier for your bot
 # recommended format is "developer/botname"
-agent_id = "GigaLearn/GGLBot"
+agent_id = "phrog/Kira"
 # The name that will be displayed in game
-name = "GGLBot"
+name = "Kira"
 # Path to loadout config from runner
 loadout_file = "loadout.toml"
 # The native launcher resolves the shared LibTorch runtime before starting the bot core
@@ -16,21 +16,21 @@ run_command_linux = "./GGLBot"
 # This is the path to your bot's logo image,
 # which will be displayed in the GUI
 # The example bot does not have a logo
-# logo_file = ""
+# logo_file = "logo.png"
 
 # These values are optional but useful metadata for helper programs
 [details]
 # Short description of the bot
-description = ""
+description = "Born to be gold, turned out a bit better"
 # Fun fact about the bot
-fun_fact = "Made with GigaLearn"
+fun_fact = "Trained on 4 H200s"
 # Link to your repository
 source_link = ""
 # Name of the bot's creator/developer
-developer = "The RLBot community"
+developer = "phrog"
 # Programming language
 language = "C++"
 # ALL POSSIBLE TAGS: "1v1", "teamplay", "goalie", "hoops", "dropshot", "snow-day", "rumble", "spike-rush", "heatseeker", "memebot"
 # NOTE: Only add the goalie tag if your bot only plays as a goalie; this directly contrasts with the teamplay tag!
 # NOTE: Only add a tag for a special game mode if you bot properly supports it
-tags = []
+tags = ["1v1"]
